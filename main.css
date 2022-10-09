@@ -35,6 +35,7 @@ header {
   background: url(img/back.png) no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 button {
   font-family: 'Raleway', sans—serif;
@@ -301,6 +302,12 @@ footer {
 .promo__card-button i {
   font-size: 15px;
   margin-left: 5px;
+}
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
 }
 
 @keyframes rotation {
